@@ -1,50 +1,198 @@
----
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
----
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="./icons/css/all.css">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="content-security-policy" content="">
+    <link href="./_app/immutable/assets/0.65b8f0df.css" rel="stylesheet">
+    <link href="./_app/immutable/assets/3.25aba9d6.css" rel="stylesheet">
+    <link rel="modulepreload" href="./_app/immutable/entry/start.91e9ccdc.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/index.82f23c51.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/singletons.133da5fb.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/index.db718ed3.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/paths.075c430e.js">
+    <link rel="modulepreload" href="./_app/immutable/entry/app.bffdde2a.js">
+    <link rel="modulepreload" href="./_app/immutable/nodes/0.0982fd63.js">
+    <link rel="modulepreload" href="./_app/immutable/nodes/3.da9b249b.js">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+    <div style="display: contents">
+
+
+        <div id="navbar" class="navbar is-fixed-top svelte-476t5" role="navigation" aria-label="main navigation">
+            <div class=""><a class="" href=""><img class="" src="" alt=""></a>
+
+                <a role="button" class="navbar-burger svelte-476t5" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"><span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span></a></div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start svelte-476t5"><a class="navbar-item svelte-476t5" href=""></a></div>
+                <div class="navbar-end"></div>
+            </div>
+        </div>
+
+        <div class="header-bg svelte-11egxih">
+            <div class="parallax-hero-banner svelte-11egxih"></div>
+            <div class="header columns has-text-left is-centered is-flex is-flex-align-content-center is-vcentered is-desktop svelte-11egxih">
+                <div class="column is-vcentered is-centered">
+                    <img class="is-full ml-auto" src="./img/text_logo_white.png" alt="Our-logo">
+                    <p class="has-text-weight-medium is-size-3 is-size-4-mobile">It all starts with an empty baseplate.
+                    </p>
+                </div>
+        
+            </div>
+        </div>
+
+
+        <section class="games-bg section is-medium has-text-centered svelte-11egxih">
+            <div class="container">
+                <div class="columns is-centered section-title-container mb-5 svelte-11egxih">
+                    <div class="column is-one-third divider is-hidden-touch svelte-11egxih"></div>
+                    <p class="section-title is-narrow svelte-11egxih">District Breakout 2</p>
+                    <div class="column is-one-third divider is-hidden-touch svelte-11egxih"></div>
+                </div>
+                <p class="is-size-3 pb-4">OUR NEW PROJECT RELEASING THIS YEAR
+                </p>
+                <div class="columns pt-4 is-vcentered has-text-left">
+                    <div class="column game-card-container airship-container svelte-11egxih">
+                        <a href="https://www.roblox.com/communities/624034931/Colossal-Arena#!/about" target="_blank">
+                            <div class="card airship-card game-card svelte-11egxih">
+                                <div class="bottombg svelte-11egxih"></div>
+                                <div class="card-content svelte-11egxih">
+                                    <div class="content">
+                                        <div class="airship-image-window svelte-11egxih"></div>
+                                        <div class="columns is-multiline is-vcentered is-mobile">
+                                            <div class="column is-full-mobile game-title">
+                                                <p class="is-size-3 has-text-weight-semibold"></p>
+                                            </div>
+                                            <div class="column is-narrow">
+                                                <figure class="is-flex mx-auto image is-24x24"><a class="is-flex is-align-content-center" href="https://discord.gg/FNqd6CDG48" target="_blank"><svg width="40" height="40" viewBox="0 0 145 100"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"></path></svg></a></figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="support-bg section is-medium has-text-centered svelte-11egxih"><img class="art-sketch-support is-hidden-touch svelte-11egxih" src="" alt="">
+            <div class="container">
+                <div class="columns is-centered section-title-container mb-5 svelte-11egxih">
+                    <div class="column is-one-third divider is-hidden-touch svelte-11egxih"></div>
+                    <p class="section-title is-narrow svelte-11egxih">Staff Reports</p>
+                    <div class="column is-one-third divider is-hidden-touch svelte-11egxih"></div>
+                </div>
+                <p class="is-size-3 pb-4">REPORT CONCERNS ABOUT A MODERATOR</p>
+                <a class=" support-card card text-easy-red svelte-11egxih" href="https://forms.gle/rUKghYJqCJ4B5gnbA"><span cfemail="bccfc9ccccd3cec8fcd9ddcfc592dbdb">REPORT A MOD</span></a></div>
+        </section>
+
+        <section class="games-bg section is-medium has-text-centered svelte-11egxih"><img class="art-sketch-games is-hidden-touch svelte-11egxih" src="" alt="">
+            <div class="container">
+                <div class="columns is-centered section-title-container mb-5 svelte-11egxih">
+                    <div class="column is-one-third divider is-hidden-touch svelte-11egxih"></div>
+                    <p class="section-title is-narrow svelte-11egxih">Games</p>
+                    <div class="column is-one-third divider is-hidden-touch svelte-11egxih"></div>
+                </div>
+                <p class="is-size-3 pb-4">
+                    <span class="text-easy-red"></span> MORE INFORMATION ABOUT THE GAME COMING SOON
+                </p>
+                <div class="columns pt-6 is-vcentered has-text-left">
+                    <div class="column game-card-container">
+                        <a href="https://www.roblox.com/games/" target="_blank">
+                            <div class="card bedwars-card game-card svelte-11egxih">
+                                <div class="bottombg svelte-11egxih"></div>
+                                <div class="card-content svelte-11egxih">
+                                    <div class="content">
+                                        <div class="image-window svelte-11egxih"></div>
+                                        <span class="icon-text"><span class="icon online-green svelte-11egxih"><i class="fas fa-circle"></i></span>
+                                        <span class="players-online svelte-11egxih"></span></span>
+                                        <div class="columns is-multiline is-vcentered is-mobile">
+                                            <div class="column is-full-mobile game-title">
+                                                <p class="is-size-3 has-text-weight-semibold">District Breakout 2</p>
+                                            </div>
+                                            <div class="column is-hidden-touch"></div>
+
+                                            <div class="column is-narrow">
+                                                <figure class="is-flex mx-auto image is-24x24"><a class="is-flex is-align-content-center svelte-11egxih" href="https://twitter.com/ColossalArenaDV" target="_blank"><svg width="24" height="24" viewBox="0 0 248 204"><path d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04C50.97,201.51,24.1,193.65,1,178.83c3.99,0.48,8,0.72,12.02,0.73c22.74,0.02,44.83-7.61,62.72-21.66c-21.61-0.41-40.56-14.5-47.18-35.07c7.57,1.46,15.37,1.16,22.8-0.87C27.8,117.2,10.85,96.5,10.85,72.46c0-0.22,0-0.43,0-0.64c7.02,3.91,14.88,6.08,22.92,6.32C11.58,63.31,4.74,33.79,18.14,10.71c25.64,31.55,63.47,50.73,104.08,52.76c-4.07-17.54,1.49-35.92,14.61-48.25c20.34-19.12,52.33-18.14,71.45,2.19c11.31-2.23,22.15-6.38,32.07-12.26c-3.77,11.69-11.66,21.62-22.2,27.93c10.01-1.18,19.79-3.86,29-7.95C240.37,35.29,231.83,44.14,221.95,51.29z"></path></svg></a>
+                                                </figure>
+                                            </div>
+                                            <div class="column is-narrow">
+                                                <figure class="is-flex mx-auto image is-24x24"><a class="is-flex is-align-content-center svelte-11egxih" href="https://discord.gg/FNqd6CDG48" target="_blank"><svg width="24" height="24" viewBox="0 0 127.14 96.36"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"></path></svg>
+												</a></figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="game-stats columns is-mobile mt-1 svelte-11egxih">
+                            <div class="column has-text-left">
+                                <p class="game-stat-title mt-2 is-size-6 svelte-11egxih">Release Date</p>
+                                <p class="is-size-5"><b>June - July 2026</b></p>
+                            </div>
+                            <div class="column has-text-left">
+                                <p class="game-stat-title mt-2 is-size-6 svelte-11egxih"></p>
+                                <p class="is-size-5"><b></b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="jobs-bg section is-medium has-text-centered is-vcentered svelte-11egxih">
+            <div class="jobs-parallax-bg svelte-11egxih"></div>
+            <div class="container">
+                <p class="is-size-3">JOIN OUR <span class="text-easy-red">TEAM</span>
+                </p>
+                <a href="" target="_blank" class="join-link px-6 py-4 mt-6 is-size-5 svelte-11egxih">NO POSITIONS ARE OPEN</a></div>
+        </section>
+
+        <section class="bottom-bg section is-small has-text-centered svelte-476t5">
+            <div class="container">
+                <p class="pt-6 copyright svelte-476t5">© Copyright 2026 District Breakout 2</p>
+            </div>
+        </section>
+
+
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script>
+            {
+                __sveltekit_1psjzlg = {
+                    assets: "/website",
+                    base: new URL(".", location).pathname.slice(0, -1),
+                    env: {}
+                };
+
+                const element = document.currentScript.parentElement;
+
+                const data = [null, null];
+
+                Promise.all([
+                    import ("./_app/immutable/entry/start.91e9ccdc.js"),
+                    import ("./_app/immutable/entry/app.bffdde2a.js")
+                ]).then(([kit, app]) => {
+                    kit.start(app, element, {
+                        node_ids: [0, 3],
+                        data,
+                        form: null,
+                        error: null
+                    });
+                });
+            }
+        </script>
+    </div>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5ef274c10ae84006a74a66f85019c859","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
